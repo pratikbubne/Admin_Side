@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Head</title>
+    <link rel="stylesheet" href="adminstyle.css">
+</head>
+<body class="admin_home">
+
+    <h1><center> Welcome Pratik</center></h1>
+    <form action="http://localhost/Admin Side/RemoveHotelRequest.py" method="POST">
+        <input class="hrr" type="submit"  value="Remove Hotel Request">
+    </form>
+    <form action="http://localhost/Admin Side/HotelAddReq.py" method="POST">
+        <input class="ahr" type="submit"  value="Add Hotel Request" required>
+    </form>
+    <form action="http://localhost/Admin Side/totaluser.py" method="POST">
+        <input class="totuser" type="submit"  value="Total Users" required>
+    </form>
+
+    <input class="ah" type="button"  value="Add Hotel" onclick="window.location.href='AdminAddHotel.html'">
+
+    <input class="rh" type="button"  value="Remove Hotel" onclick="window.location.href='AdminRemoveHotel.html'">
+
+    <input class="admin_logout" type="button" value="LogOut" onclick="window.location.href='index.html'">
+</body>
+</html>
